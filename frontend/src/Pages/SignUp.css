@@ -1,0 +1,51 @@
+.signupform{
+    justify-content: end;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.signupimg{
+    height: 600px;
+    width: 570px;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+.signupbtn{
+    animation-name: change;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes change{
+    0%{background-color: red;}
+    25%{background-color: green; }
+    50%{background-color: blue;}
+    60%{background-color: pink; }
+    70%{background-color:yellowgreen;}
+    100%{background-color: brown; }  
+}
+
+.createacc{
+    margin-left: 170px;
+}
+.profilepic{
+    height: 100px;
+    width: 100px;
+    margin-left: 300px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+}
+.addicon{
+    position: absolute;
+    top: 230px;
+    left:518px;
+    color: green;
+    cursor:pointer;
+
+}
+

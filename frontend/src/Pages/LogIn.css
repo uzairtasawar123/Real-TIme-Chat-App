@@ -1,0 +1,45 @@
+.loginform{
+    align-items: center;
+    justify-content: center;
+    margin-top: 40%;
+    margin-left: 5%;
+}
+
+.loginimg{
+    height: 595px;
+    width: 665px;
+}
+
+.signup{
+    color: red;
+}
+
+.loginbtn{
+    animation-name: change;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+
+@keyframes change{
+    0%{background-color: red;}
+    25%{background-color: green; }
+    50%{background-color: blue;}
+    60%{background-color: pink; }
+    70%{background-color:yellowgreen;}
+    100%{background-color: brown; }
+    
+     
+    
+}
+
+
+
+
+.loginbtn:hover{
+    width: 100px;
+    height: 40px;
+}

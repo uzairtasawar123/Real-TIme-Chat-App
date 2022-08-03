@@ -1,0 +1,92 @@
+.sendbtn{
+    animation-name: changesend;
+    animation-timing-function:linear;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+
+}
+
+@keyframes changesend{
+    0%{color: red;}
+    25%{color:green}
+    50%{color: blue;}
+    75%{color: darkturquoise;}
+    100%{color: pink;}
+}
+
+.sendbutton{
+    border: white;
+    background-color: white;
+}
+.messageArea{
+    border: 1px solid black;
+    width: 845px;
+    height: 545px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    background-image: url(../Images/back4.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+.messageInput{
+    margin-bottom: 10px;
+    caret-color: blue;
+    width: 600px;
+
+}
+.show_date{
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin-left: 400px;
+    background-color: rgb(0, 238, 255);
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.inner_div{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    min-width: 200px;
+    max-width: 90%;
+    text-align: left;
+    min-height: 80px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(132, 218, 20);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: white;
+    box-shadow: 10px 10px 20px  5px gray ; 
+
+}
+.main_message_div_you .inner_div{
+    background-color: rgb(255, 71, 126);
+    box-shadow: 10px 10px 20px 5px  gray ; 
+
+}
+.main_message_div_you{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message_sender{
+    font-weight:300;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.private_member_profile{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    clip-path:circle();
+}

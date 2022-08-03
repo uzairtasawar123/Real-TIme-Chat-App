@@ -1,0 +1,43 @@
+.img{
+    height: 583px;
+    width: 795px;
+
+}
+
+.firstcol{
+    padding-top: 300px;
+    padding-left:100px;
+    color: rgb(110, 62, 62);
+}
+
+.getstarted{
+    width: 129.47px;
+    height: 38px;
+    transition-property: width;  
+    transition-duration: 2s; 
+    transition-timing-function: ease-in;
+}
+
+.getstarted{
+    animation-name: change;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes change{
+    0%{background-color: red;}
+    25%{background-color: green; }
+    50%{background-color: blue;}
+    60%{background-color: pink; }
+    70%{background-color:yellowgreen;}
+    100%{background-color: brown; }
+    
+    
+}
+
+.getstarted:hover{
+    width: 135px;
+    height: 45px;
+}
